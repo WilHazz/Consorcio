@@ -33,5 +33,5 @@ public interface IMarcaAutoMapper {
      * @return Lista transformada
      */
 
-    List<MarcaAutoPojo> ToMarcasAutoPojo(List<MarcaAutoEntity> marcasAutoEnityt);
+    List<MarcaAutoPojo> toMarcasAutoPojo(List<MarcaAutoEntity> marcasAutoEnityt);
 }
